@@ -1,0 +1,24 @@
+.footer-container{
+    background-color: #292929;
+    width: 100%;
+    height: 50px;
+}
+
+.footer-container .footer-center{
+    padding: 10px;
+}
+
+.footer-container .footer-center p{
+    text-align: center;
+    color: #67B9E9;
+    font-size: small;
+    letter-spacing: 1.25px;
+}
+
+.footer-container .footer-center span{
+   position: relative;
+   top: 5px;
+}
+
+
+

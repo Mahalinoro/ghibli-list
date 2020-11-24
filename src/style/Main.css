@@ -1,0 +1,28 @@
+.main-container{
+    padding: 86px 76px; 
+    padding-bottom: 0px;
+}
+
+.main-title h1{
+    display: inline;
+    position: relative;
+    left: 13px;
+    bottom: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #67B9E9;
+}
+
+.main-title{
+    margin-bottom: 86px;
+}
+
+.main-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}

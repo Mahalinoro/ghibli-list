@@ -1,0 +1,133 @@
+.card-container{
+    width: 350px;
+    height: 460px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), #121212;
+    box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin-bottom: 70px;
+}
+
+.card-container .card-image{
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-container .card-image:hover{
+    opacity: 1;
+}
+
+.card-container .card-text{
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: normal;
+}
+
+.card-container .card-text p{
+    font-size: x-small;   
+    color: rgba(255, 255, 255, 0.6); 
+}
+
+.card-container .card-button{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-container .card-button button{
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: transparent;
+    color: #67B9E9;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-small;
+    letter-spacing: 1.25px;
+}
+
+.card-container .card-button button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(41, 41, 41, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.modal-inner {
+    position: absolute;
+    top: 8%;
+    right: 0;
+    left: 0;
+    width: 800px;
+    height: 455px;
+    padding: 50px 50px;
+    margin: auto;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), #121212;
+    box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.modal-introduction{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-introduction .modal-img{
+    width: 50%;
+    height: 50%;
+    padding-right: 60px;
+}
+
+.modal-img img{
+    width: 350px;
+    height: 455px;
+}
+
+.modal-introduction .modal-text h2{
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 20px;
+    letter-spacing: 0.15px;   
+}
+
+.modal-introduction .modal-text p{
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.modal-text{
+    position: relative;
+}
+
+.modal-close-btn{
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+
+.modal-close-btn{
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 4px;
+    background: transparent;
+    color: #67B9E9;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-small;
+    letter-spacing: 1.25px;
+}
+
+.modal-close-btn:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
