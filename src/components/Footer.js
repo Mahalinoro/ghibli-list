@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-center">
-        <p>Made with <span> <img src="/blue-heart.png"/> </span> by Mahalinoro.</p>
+        <p>Made with <span> <img src="/blue-heart.png" alt="heart"/> </span> by Mahalinoro.</p>
       </div>
     </div>
   );

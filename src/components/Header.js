@@ -4,7 +4,7 @@ function Header() {
     return (
       <nav className="nav-bar">
         <div className="nav-container">
-          <img class="nav-image" src="/Logo.png"/>
+          <img class="nav-image" src="/Logo.png" alt="logo"/>
         </div>
       </nav>
     );
