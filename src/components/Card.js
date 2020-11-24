@@ -23,7 +23,7 @@ class Card extends React.Component {
           <div className='modal-inner'>
             <div className='modal-introduction'>
               <div className='modal-img'>
-                <img src={this.props.urlImage} alt="Image URL"/>
+                <img src={this.props.urlImage} alt="Movie"/>
               </div>
               <div className='modal-text'>
                 <h2>{this.props.title}</h2>
