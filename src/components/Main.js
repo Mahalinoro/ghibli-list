@@ -3,6 +3,8 @@ import {ReactComponent as Rectangle} from './rec.svg';
 import Card from './Card.js';
 import movieList from '../data.js';
 
+movieList.sort(function(a, b){return a.date - b.date});
+
 function Main() {
   return (
     <div className="main-container">
@@ -11,6 +13,7 @@ function Main() {
         <h1>list of ghibli movies</h1>
       </div>
       <div className="main-items">
+
         {movieList.map((movie) => {
             return (
               <Card

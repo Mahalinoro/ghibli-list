@@ -2,9 +2,12 @@
     width: 350px;
     height: 460px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), #121212;
-    box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     margin-bottom: 70px;
+}
+
+.card-container:hover{
+    box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card-container .card-image{
@@ -12,6 +15,7 @@
     height: 360px;
     background-size: cover;
     background-position: center;
+    border-radius: 4px;
 }
 
 .card-container .card-image:hover{
@@ -91,6 +95,7 @@
 .modal-img img{
     width: 350px;
     height: 455px;
+    object-fit: contain;
 }
 
 .modal-introduction .modal-text h2{
